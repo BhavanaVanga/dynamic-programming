@@ -1,0 +1,50 @@
+# your code goes here
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("fr",my_text)
+# print(a)
+ 
+ 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("aa",my_text)
+# print(a)
+ 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("ning",my_text)
+# print(a)
+ 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("fr",my_text)
+# print(a.span())
+ 
+ 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("fr",my_text)
+# print(a.group())
+ 
+# 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.search("zz",my_text)
+# print(a.span())
+ 
+#regex functions
+# import re
+# my_text="Tutorial from great learning"
+# a=re.findall("ea",my_text)
+# print(a)
+ 
+# 
+# import re
+# my_text="Tutorial from great learning"
+# a=re.sub("ea","21",my_text)
+# print(a)
+ 
+import re
+my_text="Tutorial from great learning"
+a=re.search("ea",my_text)
+print(a)
