@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int CountSteps(int m)
+{
+    if(m==1)
+      return 1;
+    vector<int>dp(m+1);
+    dp[0]=0;
+    dp[1]=1;
+    dp[2]=2;
+    for(int i=3;i<=m;i++)
+      dp[i]=dp[i-1]+dp[i-2];
+    return dp[m];
+}
+int main(){
+   // write your code here
+   int t;
+   cin>>t;
+   while(t--)
+   {
+       int n;
+       cin>>n;
+       int m=CountSteps(n);
+       cout<<m<<"\n";
+   }
+    return 0;
+}
